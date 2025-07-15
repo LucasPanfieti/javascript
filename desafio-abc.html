@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Desafio A-B-C</title>
+
+	<style type="text/css">
+		
+		body {
+			background-color: #282923;
+			color: white;
+		}
+
+	</style>
+
+	<script>
+		
+		var a = 10
+		var b = 20
+		var c = null //variável auxiliar utilizada na lógica
+
+		document.write('<h1>A: ' + a + '</h1>')
+		document.write('<h1>B: ' + b + '</h1>')
+		document.write('<h1>C: ' + c + '</h1>')
+
+		document.write('<h2>Atualizando dados...</h2>')
+
+		document.write('<hr>')
+
+		c = b
+		b = a
+		a = c
+		c = null
+
+		document.write('<h2>Dados atualizados!!!</h2>')
+
+		document.write('<h1>A: ' + a + '</h1>')
+		document.write('<h1>B: ' + b + '</h1>')
+		document.write('<h1>C: ' + c + '</h1>')
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
